@@ -13,9 +13,7 @@
 - Tecnología
   
     HTML
-  
     JavaScript
-  
     CSS
 
   Alumno --> ´´´´Oscar Huechao L´´´´
