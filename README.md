@@ -1,4 +1,4 @@
-<h> Desafio Amigo Secreto ONE G9 Alura Latan </h1>
+<h1> Desafio Amigo Secreto ONE G9 Alura Latan </h1>
 
 - Aplicación desarrollada para ingresar nombres de amigos. la cual sorteará en forma aleatoria "Amigo Secreto"
 
