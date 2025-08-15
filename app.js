@@ -52,6 +52,15 @@ function sortearAmigo(){
     const amigoSorteado = amigos[nombreAleatorio]; 
     let resultado = document.getElementById("resultado");
     resultado.innerHTML = `<li>✅ Tu amigo sorteado es: </> ${amigoSorteado}</li>`;
+     document.getElementById("listaAmigos").style.display = "none";
+
+amigos.splice(indiceAleatorio, 1); // Elimina el amigo sorteado de la lista
+
+ // Verifica si ya no quedan amigos después del sorteo
+    if (amigos.length === 0) {
+        alert("¡Ya no quedan amigos para sortear!");
+    }
+
 }
 
 //Funcion para limpiar el campo de entrada
